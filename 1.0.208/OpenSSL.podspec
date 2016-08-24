@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.prepare_command = <<-CMD
     VERSION="1.0.2h"
     SDKVERSION=`xcrun --sdk iphoneos --show-sdk-version 2> /dev/null`
-    MIN_SDK_VERSION_FLAG="-miphoneos-version-min=7.0"
+    MIN_SDK_VERSION_FLAG="-miphoneos-version-min=6.0"
 
     BASEPATH="${PWD}"
     CURRENTPATH="/tmp/openssl"
